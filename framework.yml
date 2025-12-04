@@ -82,3 +82,63 @@ framework:
     - "Never sacrifice a Sovereign Principle for tactical speed"
 
   license: "MIT – free to use, adapt, and build upon"
+
+  book1_toc:
+    - preface: 4
+    - practitioners_dialogue: 8
+    - introduction: 10
+    - chapter1_clarity_of_purpose: 13
+    - chapter2_insight_first: 19
+    - chapter3_strategic_storytelling: 26
+    - chapter4_tactical_timing: 34
+    - chapter5_adaptive_framing: 43
+    - chapter6_engagement_through_reciprocity: 53
+    - chapter7_sustained_presence: 60
+    - conclusion: 68
+    - afterword: 72
+    - epilogue: 83
+    - appendix_a_quick_reference: 89
+    - appendix_b_practitioners_toolkit: 91
+    - appendix_c_case_studies: 94
+    - appendix_c_micro_snapshots: 108
+    - appendix_d_glossary: 111
+    - practitioners_workbook: 115
+      sections:
+        - clarity_of_purpose_exercises: 115
+        - insight_first_exercises: 119
+        - strategic_storytelling_exercises: 123
+        - tactical_timing_exercises: 126
+        - adaptive_framing_exercises: 129
+        - reciprocity_exercises: 132
+        - sustained_presence_exercises: 136
+      master_templates:
+        - campaign_strategy_canvas: 139
+        - weekly_engagement_planner: 141
+        - engagement_diagnostic: 142
+      integration_exercises: 143
+      quarterly_evolution: 145
+
+  book2_toc:
+    - prologue: 9  # Adjust page if known
+    - introduction_the_question_this_book_answers: 11
+    - part1_the_foundation:
+        - chapter1_virtue_as_the_north_star: 20
+        - chapter2_the_meta_rule_of_integrity: 33
+    - part2_the_architecture:
+        - chapter3_the_law_of_right_process: 45
+        - chapter4_the_principle_of_the_most_acceptable_outcome: 58
+    - part3_the_execution:
+        - chapter5_just_cause_in_action: 70
+        - chapter6_consistency_as_proof: 86
+        - chapter7_the_responsibility_of_design: 96
+    # Add examples if you want deeper nesting (optional)
+    - examples:  # Integrated throughout chapters
+      - enron_collapse: introduction
+      - gore_2000_election: chapter4
+      - civil_rights_nonviolence: chapter5
+      - manhattan_project: chapter5
+      - merkel_consistency: chapter6
+      - bbc_standards: chapter6
+      - us_constitution: chapter7
+      - nasa_flight_rules: chapter7
+      - taiwan_digital_democracy: chapter7
