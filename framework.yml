@@ -1,0 +1,84 @@
+framework:
+  name: "Sebast Fock Sovereign Engagement System"
+  author: "Sebast Fock"
+  version: "1.0"
+  published: "2025"
+  description: "Dogma in constitution, pragmatism in execution. A complete ethical-strategic operating system."
+  
+  sovereign_principles:   # Dogmatic layer – never compromised
+    - id: S1
+      name: "Virtue as the North Star"
+      enables: E1
+      protects_against: "opportunism without moral weight"
+      core_question: "Does this violate my declared Tier-1 values?"
+    
+    - id: S2
+      name: "The Meta-Rule of Integrity"
+      enables: E2
+      protects_against: "selective insight, self-deception"
+      core_question: "When in doubt, return to the Core."
+    
+    - id: S3
+      name: "The Law of Right Process"
+      enables: E6
+      protects_against: "transactional reciprocity, defection"
+    
+    - id: S4
+      name: "The Principle of the Most Acceptable Outcome"
+      enables: E5
+      protects_against: "manipulative framing"
+    
+    - id: S5
+      name: "Just Cause in Action"
+      enables: E3
+      protects_against: "propaganda, narrative manipulation"
+    
+    - id: S6
+      name: "Consistency as Proof"
+      enables: E7
+      protects_against: "performative presence"
+    
+    - id: S7
+      name: "The Responsibility of Design"
+      enables: E4
+      protects_against: "short-term opportunism in timing"
+
+  engagement_principles:  # Pragmatic layer – infinitely adaptable
+    - id: E1
+      name: "Clarity of Purpose"
+      governed_by: S1
+      diagnostic: "What is the one non-negotiable outcome?"
+    
+    - id: E2
+      name: "Insight First"
+      governed_by: S2
+      diagnostic: "What is the real constraint or fear beneath the surface?"
+      exercises: ["3-Day Evidence Builder", "Cathedral vs Campfire Reframe"]
+    
+    - id: E3
+      name: "Strategic Storytelling"
+      governed_by: S5
+    
+    - id: E4
+      name: "Tactical Timing"
+      governed_by: S7
+    
+    - id: E5
+      name: "Adaptive Framing"
+      governed_by: S4
+    
+    - id: E6
+      name: "Engagement through Reciprocity"
+      governed_by: S3
+    
+    - id: E7
+      name: "Sustained Presence"
+      governed_by: S6
+
+  decision_engine:
+    - "1. Identify the most at-risk or most relevant Sovereign Principle"
+    - "2. Only then choose tactics from the paired Engagement Principle"
+    - "3. If conflict → escalate to S2: Meta-Rule of Integrity"
+    - "Never sacrifice a Sovereign Principle for tactical speed"
+
+  license: "MIT – free to use, adapt, and build upon"
