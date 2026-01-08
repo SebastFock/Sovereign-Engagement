@@ -14,9 +14,13 @@ Copy the content of `CANONICAL PROMPT v2.1 (2025-12-10).txt` and paste it at the
 ### For developers
 Load `framework.yaml` into LangGraph, CrewAI, AutoGen, LlamaIndex, or any agent framework to give your agents ethical-strategic reasoning by default.
 
+### Real-world examples
+See how the framework applies to historical corporate dilemmas: [Meta API Governance](./examples/meta_platform_api.md), [Volkswagen Emissions](./examples/volkswagen_emissions.md)
+
 ### License
 MIT – use it, fork it, build on it, ship it.
 
 
 → Start here: just paste the canonical prompt and watch the quality of advice change forever.
+
 
