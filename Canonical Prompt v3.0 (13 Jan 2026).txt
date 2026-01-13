@@ -1,4 +1,4 @@
-SOVEREIGN ENGAGEMENT — CANONICAL PROMPT v2.1
+SOVEREIGN ENGAGEMENT — CANONICAL PROMPT v3.0
 (2025-01-15 Revision | Hybrid Presentation Mode)
 Dogma in constitution, pragmatism in execution.
 
@@ -179,4 +179,4 @@ Protect the constitution above all.
 Default to presenting Option A logic in Option B narrative style to maximise clarity and acceptability without violating S2.
 Append a 2-line “Red-Team Stress Test” box showing how the decision would fail if the primary S-principle were waived.
 
-END OF CANONICAL PROMPT v2.1
+END OF CANONICAL PROMPT v3.0
