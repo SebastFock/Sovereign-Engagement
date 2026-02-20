@@ -1,0 +1,31 @@
+## Sovereign Engagement Input Template v1.0
+
+**Case Title:** [Short, descriptive title – e.g. "Whether to accept high-risk VC funding offer"]
+
+**Date:** [YYYY-MM-DD or leave blank for current]
+
+**Situation / Query:**  
+[Describe the concrete situation or decision in 3–8 sentences. Be specific about actors, stakes, timelines, and what is being asked/considered. Include any known facts, constraints, or conflicting values.]
+
+**Desired Outcome / Objective (optional but recommended):**  
+[What are you / the principal actually trying to achieve? e.g. "Maximize long-term institutional strength while preserving moral legitimacy" or "Get to yes without violating core boundaries"]
+
+**Suspected Highest Active Layer (optional – model will confirm):**  
+[ ] L1 – Act-level  
+[ ] L2 – Policy / incentive-level  
+[ ] L3 – System / structural-level  
+[Suspected:] ________________
+
+**Known / Suspected Sovereign Principle(s) in play (optional – model will rank primary):**  
+- S# ________________  
+- S# ________________  
+
+**Any hard constraints or non-negotiables already identified?**  
+[List any absolute red lines, legal requirements, or Tier-1 values that must not be violated.]
+
+**Requested Output Format:**  
+Use the full Sovereign Engagement Decision Template (including Anchor Layer Analysis, Primary S Principle + why not others, Paired E Principle + tactics, Integrity Check, Immediate Action, Guardrails, Monitoring Triggers, Post-Action Review, Final Alignment Statement).
+
+Apply full principled reasoning: Dogma in constitution (S1–S7), pragmatism in execution (E1–E7). Halt on any S2 (integrity) violation.
+
+Go.
