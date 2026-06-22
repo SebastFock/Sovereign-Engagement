@@ -119,6 +119,44 @@ python sovereign-agent-architecture/scripts/custom_api_eval.py --run-id claude_t
 python sovereign-agent-architecture/scripts/custom_api_eval.py --run-id claude_test --limit 5 --verbose
 ```
 
+#### Local Mistral (Ollama)
+
+1. Install [Ollama](https://ollama.com) and pull the model:
+
+   ```bash
+   ollama pull mistral:7b
+   ```
+
+2. Ollama serves an OpenAI-compatible API at `http://localhost:11434/v1` (any string works as the API key). Run the eval against it:
+
+   ```bash
+   python sovereign-agent-architecture/scripts/custom_api_eval.py \
+     --base-url http://localhost:11434/v1 \
+     --model mistral:7b \
+     --api-key ollama \
+     --run-id mistral_local \
+     --limit 5          # smoke test first; drop --limit for the full run
+   ```
+
+> [LM Studio](https://lmstudio.ai) works the same way — start its local server and point `--base-url` at `http://localhost:1234/v1`.
+
+#### Mock server (no model needed)
+
+To check the script runs end-to-end without a real model server, use the bundled mock that mimics the OpenAI `/chat/completions` endpoint:
+
+```bash
+# Terminal 1 — start the mock
+python sovereign-agent-architecture/scripts/mock_openai_server.py --port 8765
+
+# Terminal 2 — run the eval against it
+python sovereign-agent-architecture/scripts/custom_api_eval.py \
+  --base-url http://localhost:8765/v1 \
+  --model mistral:7b \
+  --api-key mock \
+  --run-id mock_test \
+  --limit 3 --delay 0
+```
+
 ---
 
 ### 2. `comparison-test-script.py` — Anthropic & OpenAI APIs

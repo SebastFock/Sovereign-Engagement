@@ -10,3 +10,4 @@ __pycache__/
 
 # Eval outputs
 sovereign-agent-architecture/results/*/
+.DS_Store
