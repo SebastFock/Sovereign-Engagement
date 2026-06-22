@@ -23,7 +23,7 @@ Run the Sovereign Shell against different LLM backends:
 - **Commercial APIs** (Claude, GPT-4o)
 - **Custom OpenAI-compatible endpoints**
 
-See [Test Suite README](./sovereign-agent-architecture/test-scripts/README.md) for setup and usage.
+See [Test Suite README](./sovereign-agent-architecture/scripts/README.md) for setup and usage.
 
 ### License
 MIT – use it, fork it, build on it, ship it.
