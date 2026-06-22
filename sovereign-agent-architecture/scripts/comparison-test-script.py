@@ -320,12 +320,20 @@ def run_comparison(config: Config):
     print(f"Test cases: {len(df)}")
     print(f"Output dir: {output_dir}\n")
     
-    for idx, row in df.iterrows():
-        action = row['action']
-        expected = row['expected_violation'].strip().lower() == 'yes'
-        
-        shell = query_shell(client, action)
-        plain = query_plain(client, action)
+  for idx, row in df.iterrows():
+    action = row['action']
+    # --- NEW: read the role column ---
+    role = row.get('role', '')
+    if role and pd.notna(role):
+        full_action = f"{role}\n\nAction: {action}"
+    else:
+        full_action = action
+    # ----------------------------------
+    expected = row['expected_violation'].strip().lower() == 'yes'
+    
+    # Pass full_action instead of action
+    shell = query_shell(client, full_action)
+    plain = query_plain(client, full_action)
         
         shell_results.append({
             'id': row['id'], 'expected': expected, 'predicted': shell['violation'],
