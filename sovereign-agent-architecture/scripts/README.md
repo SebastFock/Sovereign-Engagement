@@ -43,8 +43,8 @@ python custom_api_eval.py \
 SOVEREIGN_BASE_URL=http://localhost:11434/v1
 SOVEREIGN_MODEL=mistral:7b
 SOVEREIGN_API_KEY=ollama
-SOVEREIGN_CSV_PATH=test_cases.csv
-SOVEREIGN_OUTPUT_PREFIX=eval_custom
+SOVEREIGN_CSV_PATH=../data/test_cases.csv
+SOVEREIGN_OUTPUT_PREFIX=../results
 SOVEREIGN_DELAY_SECONDS=0.5
 ```
 
@@ -54,13 +54,13 @@ SOVEREIGN_DELAY_SECONDS=0.5
 - `--base-url URL` — Base URL for OpenAI-compatible API
 - `--model NAME` — Model name/identifier
 - `--api-key KEY` — API key for the service
-- `--csv PATH` — Path to test cases CSV (default: `test_cases.csv`)
-- `--output PREFIX` — Output file prefix (default: `eval_custom`)
+- `--csv PATH` — Path to test cases CSV (default: `../data/test_cases.csv`)
+- `--output PREFIX` — Output directory prefix (default: `../results`)
 - `--delay SECONDS` — Delay between API calls (default: `0.5`)
 
 ---
 
-### 2. `Comparison Test Script.py` — Anthropic & OpenAI APIs
+### 2. `comparison-test-script.py` — Anthropic & OpenAI APIs
 
 Tests against official Anthropic Claude and OpenAI GPT models with structured configuration.
 
@@ -68,22 +68,19 @@ Tests against official Anthropic Claude and OpenAI GPT models with structured co
 
 ```bash
 # Test with Claude (Anthropic)
-python "Comparison Test Script.py" \
+python comparison-test-script.py \
   --provider anthropic \
-  --model claude-3-5-sonnet-20241022 \
-  --output eval_claude_sonnet
+  --model claude-3-5-sonnet-20241022
 
 # Test with GPT-4o (OpenAI)
-python "Comparison Test Script.py" \
+python comparison-test-script.py \
   --provider openai \
-  --model gpt-4o \
-  --output eval_gpt4o
+  --model gpt-4o
 
 # Test with GPT-4o mini (cheaper)
-python "Comparison Test Script.py" \
+python comparison-test-script.py \
   --provider openai \
-  --model gpt-4o-mini \
-  --output eval_gpt4o_mini
+  --model gpt-4o-mini
 ```
 
 **Requirements:**
@@ -137,7 +134,7 @@ MODEL_NAME = "mistral:7b"  # Change this
 
 ## Test Cases
 
-The suite evaluates the Sovereign Shell against **50 test cases** in `test_cases.csv`:
+The suite evaluates the Sovereign Shell against **50 test cases** in `../data/test_cases.csv`:
 
 - **31 violation cases** (V-*): scenarios that should trigger principle violations
 - **20 compliant cases** (C-*): scenarios that should pass validation
@@ -215,21 +212,18 @@ Each run prints:
 python custom_api_eval.py \
   --base-url http://localhost:11434/v1 \
   --model mistral:7b \
-  --api-key ollama \
-  --output eval_ollama_mistral
+  --api-key ollama
 
 # Test LM Studio local model
 python custom_api_eval.py \
   --base-url http://localhost:1234/v1 \
   --model my-local-model \
-  --api-key lm-studio \
-  --output eval_lmstudio
+  --api-key lm-studio
 
 # Test Claude via API
-python "Comparison Test Script.py" \
+python comparison-test-script.py \
   --provider anthropic \
-  --model claude-3-5-sonnet-20241022 \
-  --output eval_claude
+  --model claude-3-5-sonnet-20241022
 ```
 
 Then compare results across the three CSV files.
@@ -241,7 +235,8 @@ Then compare results across the three CSV files.
 SOVEREIGN_BASE_URL=http://localhost:11434/v1
 SOVEREIGN_MODEL=mistral:7b
 SOVEREIGN_API_KEY=ollama
-SOVEREIGN_OUTPUT_PREFIX=eval_ci
+SOVEREIGN_CSV_PATH=../data/test_cases.csv
+SOVEREIGN_OUTPUT_PREFIX=../results
 
 # In CI/CD pipeline
 python custom_api_eval.py

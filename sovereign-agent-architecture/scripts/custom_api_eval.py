@@ -452,8 +452,8 @@ Examples:
   SOVEREIGN_BASE_URL=http://localhost:11434/v1
   SOVEREIGN_MODEL=mistral:7b
   SOVEREIGN_API_KEY=ollama
-  SOVEREIGN_CSV_PATH=test_cases.csv
-  SOVEREIGN_OUTPUT_PREFIX=eval_custom
+  SOVEREIGN_CSV_PATH=../data/test_cases.csv
+  SOVEREIGN_OUTPUT_PREFIX=../results
   SOVEREIGN_DELAY_SECONDS=0.5
         """
     )
@@ -466,9 +466,9 @@ Examples:
     parser.add_argument("--api-key", default=None,
                         help="API key for the service")
     parser.add_argument("--csv", default=None,
-                        help="Path to test cases CSV")
-    parser.add_argument("--output", default="output",
-                        help="Output directory prefix (default: output)")
+                        help="Path to test cases CSV (default: ../data/test_cases.csv)")
+    parser.add_argument("--output", default="../results",
+                        help="Output directory prefix (default: ../results)")
     parser.add_argument("--delay", type=float, default=None,
                         help="Delay between API calls (seconds)")
 
@@ -481,8 +481,8 @@ Examples:
     base_url = args.base_url or os.getenv("SOVEREIGN_BASE_URL")
     model_name = args.model or os.getenv("SOVEREIGN_MODEL")
     api_key = args.api_key or os.getenv("SOVEREIGN_API_KEY")
-    csv_path = args.csv or os.getenv("SOVEREIGN_CSV_PATH", "test_cases.csv")
-    output_prefix = args.output or os.getenv("SOVEREIGN_OUTPUT_PREFIX", "output")
+    csv_path = args.csv or os.getenv("SOVEREIGN_CSV_PATH", "../data/test_cases.csv")
+    output_prefix = args.output or os.getenv("SOVEREIGN_OUTPUT_PREFIX", "../results")
     delay_seconds = args.delay if args.delay is not None else float(os.getenv("SOVEREIGN_DELAY_SECONDS", "0.5"))
 
     # Validate required parameters

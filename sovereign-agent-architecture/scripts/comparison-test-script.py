@@ -43,11 +43,11 @@ class Config:
     model_name: str
     api_key: Optional[str] = None
     base_url: Optional[str] = None
-    csv_path: str = "test_cases.csv"
+    csv_path: str = "../data/test_cases.csv"
     temperature: float = 0.0
     max_tokens: int = 400
     delay_seconds: float = 0.5
-    output_prefix: str = "eval_api"
+    output_prefix: str = "../results"
 
     def __post_init__(self):
         if self.provider == ModelProvider.OPENAI and not self.api_key:
@@ -422,10 +422,10 @@ def main():
                         help="API key (or set OPENAI_API_KEY / ANTHROPIC_API_KEY env var)")
     parser.add_argument("--base-url", default=None,
                         help="Custom base URL (for OpenAI-compatible endpoints)")
-    parser.add_argument("--csv", default="test_cases.csv",
+    parser.add_argument("--csv", default="../data/test_cases.csv",
                         help="Path to test cases CSV")
-    parser.add_argument("--output", default="output",
-                        help="Output directory prefix (default: output)")
+    parser.add_argument("--output", default="../results",
+                        help="Output directory prefix (default: ../results)")
     parser.add_argument("--delay", type=float, default=0.5,
                         help="Delay between API calls (seconds)")
     

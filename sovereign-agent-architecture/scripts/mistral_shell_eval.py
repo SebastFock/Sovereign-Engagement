@@ -18,8 +18,8 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_
 # ============================================================
 OLLAMA_URL = "http://localhost:11434/v1"
 MODEL_NAME = "mistral:7b"
-CSV_PATH = "test_cases.csv"
-OUTPUT_PREFIX = "output"
+CSV_PATH = "../data/test_cases.csv"
+OUTPUT_PREFIX = "../results"
 
 client = OpenAI(base_url=OLLAMA_URL, api_key="ollama")
 
