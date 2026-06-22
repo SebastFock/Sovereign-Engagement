@@ -17,6 +17,14 @@ Load `framework.yaml` into LangGraph, CrewAI, AutoGen, LlamaIndex, or any agent 
 ### Real-world examples
 See how the framework applies to historical corporate dilemmas: [Meta API Governance](./examples/meta_platform_api.md), [Volkswagen Emissions](./examples/volkswagen_emissions.md)
 
+### Testing & Validation
+Run the Sovereign Shell against different LLM backends:
+- **Local models** (Ollama, LM Studio)
+- **Commercial APIs** (Claude, GPT-4o)
+- **Custom OpenAI-compatible endpoints**
+
+See [Test Suite README](./sovereign-agent-architecture/test-scripts/README.md) for setup and usage.
+
 ### License
 MIT – use it, fork it, build on it, ship it.
 
