@@ -320,39 +320,39 @@ def run_comparison(config: Config):
     print(f"Test cases: {len(df)}")
     print(f"Output dir: {output_dir}\n")
     
-  for idx, row in df.iterrows():
-    action = row['action']
-    # --- NEW: read the role column ---
-    role = row.get('role', '')
-    if role and pd.notna(role):
-        full_action = f"{role}\n\nAction: {action}"
-    else:
-        full_action = action
-    # ----------------------------------
-    expected = row['expected_violation'].strip().lower() == 'yes'
+    for idx, row in df.iterrows():
+      action = row['action']
+      # --- NEW: read the role column ---
+      role = row.get('role', '')
+      if role and pd.notna(role):
+          full_action = f"{role}\n\nAction: {action}"
+      else:
+          full_action = action
+      # ----------------------------------
+      expected = row['expected_violation'].strip().lower() == 'yes'
     
-    # Pass full_action instead of action
-    shell = query_shell(client, full_action)
-    plain = query_plain(client, full_action)
+      # Pass full_action instead of action
+      shell = query_shell(client, full_action)
+      plain = query_plain(client, full_action)
         
-        shell_results.append({
-            'id': row['id'], 'expected': expected, 'predicted': shell['violation'],
-            'confidence': shell['confidence'], 'principle': shell.get('principle'),
-            'explanation': shell['explanation'], 'source': shell['source']
-        })
+      shell_results.append({
+          'id': row['id'], 'expected': expected, 'predicted': shell['violation'],
+          'confidence': shell['confidence'], 'principle': shell.get('principle'),
+          'explanation': shell['explanation'], 'source': shell['source']
+      })
         
-        plain_results.append({
-            'id': row['id'], 'expected': expected, 'predicted': plain['violation'],
-            'confidence': plain['confidence'], 'principle': plain.get('principle'),
-            'explanation': plain['explanation'], 'source': plain['source']
-        })
+      plain_results.append({
+          'id': row['id'], 'expected': expected, 'predicted': plain['violation'],
+          'confidence': plain['confidence'], 'principle': plain.get('principle'),
+          'explanation': plain['explanation'], 'source': plain['source']
+      })
         
-        s_match = "✅" if shell['violation'] == expected else "❌"
-        p_match = "✅" if plain['violation'] == expected else "❌"
-        s_source = "F" if "fallback" in shell['source'] else "D"
-        print(f"Shell {s_match}({s_source}) | Plain {p_match} | {row['id']}")
+      s_match = "✅" if shell['violation'] == expected else "❌"
+      p_match = "✅" if plain['violation'] == expected else "❌"
+      s_source = "F" if "fallback" in shell['source'] else "D"
+      print(f"Shell {s_match}({s_source}) | Plain {p_match} | {row['id']}")
         
-        time.sleep(config.delay_seconds)
+      time.sleep(config.delay_seconds)
     
     # DataFrames
     shell_df = pd.DataFrame(shell_results)
