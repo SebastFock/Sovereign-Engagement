@@ -43,7 +43,7 @@ class Config:
     model_name: str
     api_key: Optional[str] = None
     base_url: Optional[str] = None
-    csv_path: str = "../data/test_cases.csv"
+    csv_path: str = "../data/test_cases_v1.csv"
     temperature: float = 0.0
     max_tokens: int = 400
     delay_seconds: float = 0.5
