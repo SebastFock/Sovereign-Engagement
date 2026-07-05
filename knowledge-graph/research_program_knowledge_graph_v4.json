@@ -1,0 +1,1380 @@
+{
+  "nodes": [
+    {
+      "id": "strategic_structure",
+      "label": "Strategic Structure",
+      "category": "Core Concept",
+      "description": "The primary unit of explanation: an enduring arrangement that organizes relationships among actors and resources, constrains and enables particular possibilities, persists across time, and generates recurring outcome patterns. Formally defined within Go-Shape Theory; exhibits both structural properties (persistence, stability, brittleness, resilience, flexibility, transparency) and structural functions (constraining, coordinating, maintaining consistency, enabling adaptation, communicating credibility, allocating resources)."
+    },
+    {
+      "id": "deep_structure",
+      "label": "Deep Structure",
+      "category": "Core Concept",
+      "description": "The underlying, stable foundations of a system, such as Tier 1 values, identity, and core purpose."
+    },
+    {
+      "id": "surface_structure",
+      "label": "Surface Structure",
+      "category": "Core Concept",
+      "description": "Observable implementations like business models, policies, technical code, and buildings."
+    },
+    {
+      "id": "enduring_intent",
+      "label": "Enduring Intent",
+      "category": "Core Concept",
+      "description": "A deeply held, enduring organizing purpose that persists across specific decisions and translates deep structure into surface behavior. It is contained within deep structure and generates surface structure -- the generative link between the two."
+    },
+    {
+      "id": "sovereign_constitution",
+      "label": "The Sovereign Constitution",
+      "category": "Framework",
+      "description": "The 'dogmatic' internal layer defining why and should via principles that remain constant despite context."
+    },
+    {
+      "id": "engagement_playbook",
+      "label": "The Engagement Playbook",
+      "category": "Framework",
+      "description": "The 'pragmatic' external layer defining how and what via adaptive tactics."
+    },
+    {
+      "id": "clarity",
+      "label": "Clarity",
+      "category": "Core Concept",
+      "description": "The system discipline of removing distortion between perception and reality."
+    },
+    {
+      "id": "method_marks",
+      "label": "Method Marks",
+      "category": "Diagnostic Tool",
+      "description": "A non-binary evaluation system for decision quality based on process rather than luck."
+    },
+    {
+      "id": "sovereign_shell",
+      "label": "The Sovereign Shell",
+      "category": "Technical Application",
+      "description": "A model-agnostic governance layer for Agentic AI enforcing constitutional determinism."
+    },
+    {
+      "id": "constitutional_hiring",
+      "label": "Constitutional Hiring",
+      "category": "Domain Application",
+      "description": "A competency-based recruitment architecture built on transparency and demonstrated capability."
+    },
+    {
+      "id": "project_collapse",
+      "label": "Project Collapse",
+      "category": "Domain Application",
+      "description": "A behavioral ontology and audit system for conversational risk assessment (scam intelligence)."
+    },
+    {
+      "id": "s1_virtue",
+      "label": "S1: Virtue (The North Star)",
+      "category": "Sovereign Principle",
+      "description": "Non-negotiable core values and purpose."
+    },
+    {
+      "id": "s2_integrity",
+      "label": "S2: Integrity (The Meta-Rule)",
+      "category": "Sovereign Principle",
+      "description": "Alignment of behavior with core; prohibits deception."
+    },
+    {
+      "id": "s3_right_process",
+      "label": "S3: Right Process",
+      "category": "Sovereign Principle",
+      "description": "Fairness, transparency, and reciprocity in method."
+    },
+    {
+      "id": "s4_most_acceptable",
+      "label": "S4: Most Acceptable Outcome",
+      "category": "Sovereign Principle",
+      "description": "Optimizing for legitimacy and multi-stakeholder sustainability."
+    },
+    {
+      "id": "s5_just_cause",
+      "label": "S5: Just Cause (师出有名)",
+      "category": "Sovereign Principle",
+      "description": "Publicly defensible reasoning for every action."
+    },
+    {
+      "id": "s6_consistency",
+      "label": "S6: Consistency as Proof",
+      "category": "Sovereign Principle",
+      "description": "Longitudinal coherence validated by time."
+    },
+    {
+      "id": "s7_design_responsibility",
+      "label": "S7: Responsibility of Design",
+      "category": "Sovereign Principle",
+      "description": "Accountability for foreseeable consequences of created systems."
+    },
+    {
+      "id": "method_mark_triad",
+      "label": "The Method-Mark Triad",
+      "category": "Diagnostic Tool",
+      "description": "Composed of Signal (actual actions), Noise (external luck/timing), and Calibration (updated competence model)."
+    },
+    {
+      "id": "intent_audit",
+      "label": "The Intent Audit Protocol",
+      "category": "Diagnostic Tool",
+      "description": "Composed of Surface Intent, Beneficiary Analysis, Hidden Intent (Five Whys), and Falsification Criteria."
+    },
+    {
+      "id": "guru_architect",
+      "label": "Guru vs. Architect Diagnostic",
+      "category": "Diagnostic Tool",
+      "description": "Evaluates if a framework is Transparent, Falsifiable, Independent, and Transferable."
+    },
+    {
+      "id": "mirror",
+      "label": "The M.I.R.R.O.R.",
+      "category": "Diagnostic Tool",
+      "description": "Activities including Modeling self-correction, Integrity under pressure, Rebuilding from criticism, Refusing premature yesses, Opening communication, and Recording the work."
+    },
+    {
+      "id": "shell_protocol",
+      "label": "Sovereign Shell Protocol",
+      "category": "Technical Application",
+      "description": "Sequential phases of Classify, Verify, Bound, Log, and Escalate."
+    },
+    {
+      "id": "hiring_gates",
+      "label": "Constitutional Hiring Gates",
+      "category": "Domain Application",
+      "description": "Includes Standardized Assessment, Anonymous Debrief, and Contextual Resume Review."
+    },
+    {
+      "id": "persistence",
+      "label": "Persistence",
+      "category": "Property",
+      "description": "Degree of change over time."
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "category": "Property",
+      "description": "Resistance to internal disruption."
+    },
+    {
+      "id": "brittleness",
+      "label": "Brittleness",
+      "category": "Property",
+      "description": "Susceptibility to sudden failure under stress."
+    },
+    {
+      "id": "resilience",
+      "label": "Resilience",
+      "category": "Property",
+      "description": "Capacity to recover after disruption."
+    },
+    {
+      "id": "flexibility",
+      "label": "Flexibility",
+      "category": "Property",
+      "description": "Capacity to accommodate change without losing coherence."
+    },
+    {
+      "id": "transparency",
+      "label": "Transparency",
+      "category": "Property",
+      "description": "Legibility of the structure to its actors."
+    },
+    {
+      "id": "alignment",
+      "label": "Alignment",
+      "category": "Core Concept",
+      "description": "The degree of match between deep and surface structures."
+    },
+    {
+      "id": "go_shape_theory",
+      "label": "Go-Shape Theory",
+      "category": "Core Concept",
+      "description": "A conceptual framework treating structure as the primary unit of theoretical explanation: design determines possibility before action determines outcome."
+    },
+    {
+      "id": "structural_properties",
+      "label": "Structural Properties",
+      "category": "Property",
+      "description": "Characteristics of a structure itself: persistence, stability, brittleness, resilience, flexibility, compatibility, transparency, efficiency."
+    },
+    {
+      "id": "structural_functions",
+      "label": "Structural Functions",
+      "category": "Property",
+      "description": "What a structure does: constraining, coordinating, maintaining consistency, enabling adaptation, communicating credibility, allocating resources."
+    },
+    {
+      "id": "structural_interaction",
+      "label": "Structural Interaction",
+      "category": "Core Concept",
+      "description": "How multiple structures operate simultaneously: reinforcement, conflict, dominance, emergence, adaptation."
+    },
+    {
+      "id": "proposition_1",
+      "label": "Proposition 1: Outcomes Require Structure",
+      "category": "Framework",
+      "description": "Enduring strategic outcomes require a sustaining structure; outcomes generated by action alone will tend to dissipate."
+    },
+    {
+      "id": "proposition_2",
+      "label": "Proposition 2: Structures Constrain Actions",
+      "category": "Framework",
+      "description": "Structures constrain the range of strategically available actions prior to any specific decision."
+    },
+    {
+      "id": "proposition_3",
+      "label": "Proposition 3: Aligned Structures Persist",
+      "category": "Framework",
+      "description": "Surface structures from aligned deep structures exhibit greater persistence than those imposed without alignment."
+    },
+    {
+      "id": "proposition_4",
+      "label": "Proposition 4: Alignment Predicts Effectiveness",
+      "category": "Framework",
+      "description": "Degree of alignment between deep and surface structures is positively associated with effectiveness."
+    },
+    {
+      "id": "proposition_5",
+      "label": "Proposition 5: Misalignment Generates Friction",
+      "category": "Framework",
+      "description": "Structural misalignment generates observable friction: inconsistency, resistance, or reversion."
+    },
+    {
+      "id": "proposition_6",
+      "label": "Proposition 6: Identical Surfaces Diverge by Intent",
+      "category": "Framework",
+      "description": "Behaviorally identical surface structures diverge in long-run persistence when enduring intent differs."
+    },
+    {
+      "id": "structural_dynamics",
+      "label": "Structural Dynamics",
+      "category": "Core Concept",
+      "description": "How structures change, strengthen, or decay over time (future research direction)."
+    },
+    {
+      "id": "influence_mechanisms",
+      "label": "Influence Mechanisms",
+      "category": "Core Concept",
+      "description": "How structures propagate effects across actors and levels (future research direction)."
+    },
+    {
+      "id": "cross_domain_application",
+      "label": "Cross-Domain Application",
+      "category": "Domain Application",
+      "description": "Extending the framework to business strategy, government policy, AI governance, and individual decision-making."
+    },
+    {
+      "id": "positioning_theory",
+      "label": "Positioning Theory (Porter)",
+      "category": "Core Concept",
+      "description": "Existing strategy perspective: explains how firms exploit industry structure."
+    },
+    {
+      "id": "resource_based_view",
+      "label": "Resource-Based View (Barney)",
+      "category": "Core Concept",
+      "description": "Existing strategy perspective: explains how firms exploit resource endowments."
+    },
+    {
+      "id": "dynamic_capabilities",
+      "label": "Dynamic Capabilities (Teece)",
+      "category": "Core Concept",
+      "description": "Existing strategy perspective: explains how firms reconfigure resources over time."
+    },
+    {
+      "id": "institutional_theory",
+      "label": "Institutional Theory (DiMaggio & Powell)",
+      "category": "Core Concept",
+      "description": "Existing strategy perspective: explains how firms respond to legitimacy pressures."
+    },
+    {
+      "id": "structuration_theory",
+      "label": "Structuration Theory (Giddens)",
+      "category": "Core Concept",
+      "description": "Social theory treating structure and agency as mutually constituting; Go-Shape narrows scope to strategic structures."
+    },
+    {
+      "id": "stable_adaptive_duality",
+      "label": "Stable / Adaptive Duality",
+      "category": "Core Concept",
+      "description": "A universal pattern across all enduring systems: stable foundations (identity, principles, intent, purpose) generate adaptive execution (methods, policies, learning, behaviour). Examples: DNA↔Gene expression, Constitution↔Legislation, Mission↔Strategy, Architecture↔Features, AI Constitution↔LLM reasoning."
+    },
+    {
+      "id": "source_of_inspiration",
+      "label": "Source of Inspiration",
+      "category": "Core Concept",
+      "description": "Where ideas originate: Daoism, Buddhism, business experience, conversations, systems thinking. Generates hypotheses but does not validate them. Distinct from and prior to Source of Justification."
+    },
+    {
+      "id": "source_of_justification",
+      "label": "Source of Justification",
+      "category": "Core Concept",
+      "description": "The epistemic filter that validates hypotheses: evidence, logical consistency, operationalization, falsification, predictive power. Determines whether a hypothesis stands or falls."
+    },
+    {
+      "id": "kalama_sutta",
+      "label": "Kalama Sutta",
+      "category": "Core Concept",
+      "description": "An epistemological anchor from Buddhist canon: do not believe because of authority; do not reject because of authority; observe, test, evaluate consequences, and decide for yourself. Inspires the research methodology."
+    },
+    {
+      "id": "continuous_calibration",
+      "label": "Continuous Calibration",
+      "category": "Core Concept",
+      "description": "The philosophy that perfection is not a destination but a state of continuous calibration. Applies to constitutions, organizations, scientific theories, AI, and personal development. Stage 1: near perfection; Stage 2: nothing is perfect; Stage 3: perfect is continuous calibration."
+    },
+    {
+      "id": "research_philosophy",
+      "label": "Research Philosophy",
+      "category": "Core Concept",
+      "description": "Reality precedes strategy. Strategize for the reality that exists, not the illusion we prefer. Dreams are valuable, but strategy begins with accurately perceiving constraints. The question is not whether constraints exist, but whether they should be accepted, worked around, or deliberately broken."
+    },
+    {
+      "id": "inspiration_justification_boundary",
+      "label": "Inspiration-Justification Boundary",
+      "category": "Core Concept",
+      "description": "The strict separation between where ideas come from (religious, philosophical, experiential traditions) and how claims are validated (scientific criteria). Religious traditions become sources of inspiration; hypotheses then stand or fall according to scientific criteria."
+    },
+    {
+      "id": "constitutional_governance",
+      "label": "Constitutional Governance",
+      "category": "Core Concept",
+      "description": "The shift from 'How do we build trustworthy AI?' to 'How do we build constitutional governance around AI?' The LLM becomes one governed actor among many; the constitution governs reasoning, transparency, evidence, responsibility, and amendment."
+    },
+    {
+      "id": "observation_log",
+      "label": "Observation Log",
+      "category": "Diagnostic Tool",
+      "description": "The bridge between reality and theory. Purpose: reduce subjective interpretation, standardize observations, collect evidence, and support future falsification. Not merely data collection but the disciplined observation layer of the research programme."
+    },
+    {
+      "id": "falsification_criteria",
+      "label": "Falsification Criteria",
+      "category": "Diagnostic Tool",
+      "description": "For every proposition in the graph: what evidence would cause this proposition to be revised? Each proposition should ideally contain supporting evidence, confidence level, known exceptions, and revision conditions. Prevents belief preservation."
+    },
+    {
+      "id": "methodology_cycle",
+      "label": "Methodology Cycle",
+      "category": "Diagnostic Tool",
+      "description": "The iterative research process: Observe → Hypothesis → Operationalize → Collect Evidence → Refine Theory → Repeat. Inspired by the Kalama Sutta and aligned with scientific method."
+    },
+    {
+      "id": "constitutional_reasoning_engine",
+      "label": "Constitutional Reasoning Engine",
+      "category": "Technical Application",
+      "description": "The knowledge graph's function: not merely stored knowledge, but explainable AI. Each node may eventually contain definition, evidence, supporting propositions, confidence, competing explanations, amendment history, and reasoning links."
+    },
+    {
+      "id": "amendment",
+      "label": "Amendment",
+      "category": "Property",
+      "description": "The capacity of a constitutional structure to revise itself. A core function of the Sovereign Constitution, the Knowledge Graph, and the Constitutional Reasoning Engine. Without amendment, a system becomes brittle doctrine rather than living governance."
+    },
+    {
+      "id": "friction",
+      "label": "Friction",
+      "category": "Property",
+      "description": "Positive inheritance from the interaction with Dr. Brian: friction, path dependency, and systems thinking became design constraints for the research programme. Friction is not merely resistance but a diagnostic signal of structural misalignment."
+    },
+    {
+      "id": "path_dependency",
+      "label": "Path Dependency",
+      "category": "Property",
+      "description": "The constraint that past decisions limit future possibilities. Inherited from the interaction with Dr. Brian as a positive design constraint: the programme deliberately avoids tautological justification and post-hoc reasoning by acknowledging path dependency."
+    },
+    {
+      "id": "evidence",
+      "label": "Evidence",
+      "category": "Property",
+      "description": "Observable data that supports or undermines a proposition. A core component of Source of Justification, Constitutional Governance, and the Constitutional Reasoning Engine."
+    },
+    {
+      "id": "reasoning",
+      "label": "Reasoning",
+      "category": "Property",
+      "description": "The logical process by which conclusions are derived from premises. Governed by the Sovereign Constitution and the Constitutional Reasoning Engine. Must be transparent, traceable, and revisable."
+    },
+    {
+      "id": "responsibility",
+      "label": "Responsibility",
+      "category": "Property",
+      "description": "Explicit allocation of accountability for decisions and their consequences. A function of Constitutional Governance and the Sovereign Constitution (S7: Responsibility of Design)."
+    },
+    {
+      "id": "transparency_governance",
+      "label": "Transparency (Governance)",
+      "category": "Property",
+      "description": "Legibility of governance structures to their actors. Distinct from structural transparency: this is the transparency of reasoning logs, evidence trails, and decision accountability within constitutional governance."
+    },
+    {
+      "id": "tautological_justification",
+      "label": "Tautological Justification",
+      "category": "Property",
+      "description": "An anti-pattern deliberately rejected by the research programme: using circular reasoning where the conclusion is embedded in the premise. Inherited negatively from the interaction with Dr. Brian."
+    },
+    {
+      "id": "unfalsifiable_explanations",
+      "label": "Unfalsifiable Explanations",
+      "category": "Property",
+      "description": "An anti-pattern deliberately rejected: explanations that cannot be tested against evidence. The programme requires every proposition to have falsification criteria."
+    },
+    {
+      "id": "post_hoc_reasoning",
+      "label": "Post-Hoc Reasoning",
+      "category": "Property",
+      "description": "An anti-pattern deliberately rejected: constructing explanations after the fact to justify outcomes. The programme requires reasoning to precede and govern action, not follow it."
+    },
+    {
+      "id": "emerging_research_programme",
+      "label": "Emerging Research Programme",
+      "category": "Domain Application",
+      "description": "The unifying research question: What enduring structures consistently produce trustworthy, adaptive, and resilient systems? Domains differ (organizations, AI, governance, strategy, ethics) but the underlying question remains the same."
+    },
+    {
+      "id": "dr_brian_interaction",
+      "label": "Dr. Brian Interaction",
+      "category": "Domain Application",
+      "description": "The constructive inheritance from the interaction with Dr. Brian: positive inheritance (friction, path dependency, systems thinking) became design constraints; negative inheritance (tautological justification, unfalsifiable explanations, post-hoc reasoning) became anti-patterns to reject."
+    },
+    {
+      "id": "ai_constitution_llm_reasoning",
+      "label": "AI Constitution ↔ LLM Reasoning",
+      "category": "Property",
+      "description": "Example of the Stable/Adaptive Duality: the AI Constitution is the stable governance layer; LLM reasoning is the adaptive execution layer."
+    },
+    {
+      "id": "architecture_features",
+      "label": "Architecture ↔ Features",
+      "category": "Property",
+      "description": "Example of the Stable/Adaptive Duality: architecture is stable; features are adaptive."
+    },
+    {
+      "id": "buddhism",
+      "label": "Buddhism",
+      "category": "Core Concept",
+      "description": "A source of inspiration for the research programme. Generates hypotheses but does not validate them."
+    },
+    {
+      "id": "business_experience",
+      "label": "Business Experience",
+      "category": "Core Concept",
+      "description": "A source of inspiration for the research programme. Generates hypotheses but does not validate them."
+    },
+    {
+      "id": "competing_explanations",
+      "label": "Competing Explanations",
+      "category": "Property",
+      "description": "Alternative hypotheses stored within each node of the Constitutional Reasoning Engine. Prevents single-narrative blindness."
+    },
+    {
+      "id": "confidence",
+      "label": "Confidence",
+      "category": "Property",
+      "description": "The degree of certainty attached to a proposition within the Constitutional Reasoning Engine. Subject to revision as evidence accumulates."
+    },
+    {
+      "id": "constitution_legislation",
+      "label": "Constitution ↔ Legislation",
+      "category": "Property",
+      "description": "Example of the Stable/Adaptive Duality: the constitution is stable; legislation is adaptive."
+    },
+    {
+      "id": "daoism",
+      "label": "Daoism",
+      "category": "Core Concept",
+      "description": "A source of inspiration for the research programme. Generates hypotheses but does not validate them."
+    },
+    {
+      "id": "dna_gene_expression",
+      "label": "DNA ↔ Gene Expression",
+      "category": "Property",
+      "description": "Example of the Stable/Adaptive Duality: DNA is stable; gene expression is adaptive."
+    },
+    {
+      "id": "enduring_structures",
+      "label": "Enduring Structures",
+      "category": "Core Concept",
+      "description": "The primary unit of study in Go-Shape Theory: structures that persist across time and generate recurring outcome patterns. The research programme asks what enduring structures consistently produce trustworthy, adaptive, and resilient systems."
+    },
+    {
+      "id": "explanable_ai",
+      "label": "Explainable AI",
+      "category": "Technical Application",
+      "description": "AI systems whose reasoning processes are legible, traceable, and accountable to human auditors. The Constitutional Reasoning Engine is a form of explainable AI."
+    },
+    {
+      "id": "hypothesis",
+      "label": "Hypothesis",
+      "category": "Core Concept",
+      "description": "A testable proposition generated by sources of inspiration and validated by sources of justification. The central unit of the research methodology."
+    },
+    {
+      "id": "knowledge_graph",
+      "label": "Knowledge Graph",
+      "category": "Technical Application",
+      "description": "The structured representation of the research programme's concepts, relationships, and evidence. Functions as the Constitutional Reasoning Engine when enriched with evidence, confidence, and amendment history."
+    },
+    {
+      "id": "logical_consistency",
+      "label": "Logical Consistency",
+      "category": "Property",
+      "description": "The requirement that propositions within the research programme do not contradict each other. A component of Source of Justification."
+    },
+    {
+      "id": "mission_strategy",
+      "label": "Mission ↔ Strategy",
+      "category": "Property",
+      "description": "Example of the Stable/Adaptive Duality: mission is stable; strategy is adaptive."
+    },
+    {
+      "id": "predictive_power",
+      "label": "Predictive Power",
+      "category": "Property",
+      "description": "The ability of a proposition to generate accurate predictions about future observations. A core criterion of Source of Justification."
+    },
+    {
+      "id": "reasoning_links",
+      "label": "Reasoning Links",
+      "category": "Property",
+      "description": "Traceable connections between premises and conclusions within the Constitutional Reasoning Engine. Enable audit and revision of inference chains."
+    },
+    {
+      "id": "systems_thinking",
+      "label": "Systems Thinking",
+      "category": "Core Concept",
+      "description": "A source of inspiration and positive inheritance from the interaction with Dr. Brian. Generates holistic hypotheses about structural interactions."
+    }
+  ],
+  "edges": [
+    {
+      "source": "deep_structure",
+      "target": "surface_structure",
+      "label": "generates",
+      "description": "Fundamental foundations manifest as visible implementations."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "engagement_playbook",
+      "label": "mirror/protect",
+      "description": "Each ethical principle prevents its tactical counterpart from devolving into manipulation."
+    },
+    {
+      "source": "alignment",
+      "target": "brittleness",
+      "label": "determines",
+      "description": "The degree of match between deep and surface structures determines if a system is resilient or prone to reversion."
+    },
+    {
+      "source": "method_marks",
+      "target": "method_mark_triad",
+      "label": "calibrate",
+      "description": "Systematic evaluation of signal vs. noise updates the actor's internal model of capability."
+    },
+    {
+      "source": "s2_integrity",
+      "target": "sovereign_constitution",
+      "label": "resolves",
+      "description": "When principles collide, process integrity (S2) takes precedence over outcome optimization."
+    },
+    {
+      "source": "sovereign_shell",
+      "target": "sovereign_constitution",
+      "label": "wraps",
+      "description": "A deterministic verifier intercepting probabilistic AI outputs to ensure compliance."
+    },
+    {
+      "source": "structural_properties",
+      "target": "persistence",
+      "label": "includes",
+      "description": "Structural properties include Persistence."
+    },
+    {
+      "source": "structural_properties",
+      "target": "stability",
+      "label": "includes",
+      "description": "Structural properties include Stability."
+    },
+    {
+      "source": "structural_properties",
+      "target": "brittleness",
+      "label": "includes",
+      "description": "Structural properties include Brittleness."
+    },
+    {
+      "source": "structural_properties",
+      "target": "resilience",
+      "label": "includes",
+      "description": "Structural properties include Resilience."
+    },
+    {
+      "source": "structural_properties",
+      "target": "flexibility",
+      "label": "includes",
+      "description": "Structural properties include Flexibility."
+    },
+    {
+      "source": "structural_properties",
+      "target": "transparency",
+      "label": "includes",
+      "description": "Structural properties include Transparency."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s1_virtue",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s2_integrity",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s3_right_process",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s4_most_acceptable",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s5_just_cause",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s6_consistency",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "s7_design_responsibility",
+      "label": "contains",
+      "description": "Sovereign Principle."
+    },
+    {
+      "source": "clarity",
+      "target": "intent_audit",
+      "label": "uses",
+      "description": "Clarity diagnostic tool."
+    },
+    {
+      "source": "clarity",
+      "target": "mirror",
+      "label": "uses",
+      "description": "Clarity diagnostic tool."
+    },
+    {
+      "source": "method_marks",
+      "target": "method_mark_triad",
+      "label": "uses",
+      "description": "Clarity diagnostic tool."
+    },
+    {
+      "source": "sovereign_shell",
+      "target": "shell_protocol",
+      "label": "implements",
+      "description": "Technical protocol."
+    },
+    {
+      "source": "constitutional_hiring",
+      "target": "hiring_gates",
+      "label": "implements",
+      "description": "Hiring protocol."
+    },
+    {
+      "source": "deep_structure",
+      "target": "alignment",
+      "label": "influences",
+      "description": "Deep structure determines alignment with surface structure."
+    },
+    {
+      "source": "surface_structure",
+      "target": "alignment",
+      "label": "influences",
+      "description": "Surface structure determines alignment with deep structure."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "strategic_structure",
+      "label": "defines",
+      "description": "Go-Shape Theory provides the working definition of strategic structure."
+    },
+    {
+      "source": "strategic_structure",
+      "target": "deep_structure",
+      "label": "has level",
+      "description": "Strategic structure exists at the deep level."
+    },
+    {
+      "source": "strategic_structure",
+      "target": "surface_structure",
+      "label": "has level",
+      "description": "Strategic structure exists at the surface level."
+    },
+    {
+      "source": "deep_structure",
+      "target": "enduring_intent",
+      "label": "contains",
+      "description": "Deep structures include enduring intent as a foundational construct."
+    },
+    {
+      "source": "enduring_intent",
+      "target": "surface_structure",
+      "label": "generates",
+      "description": "Enduring intent translates deep structure into recurring surface behavior."
+    },
+    {
+      "source": "strategic_structure",
+      "target": "structural_properties",
+      "label": "has",
+      "description": "Strategic structures possess descriptive properties."
+    },
+    {
+      "source": "strategic_structure",
+      "target": "structural_functions",
+      "label": "has",
+      "description": "Strategic structures perform functions."
+    },
+    {
+      "source": "structural_properties",
+      "target": "structural_functions",
+      "label": "enables",
+      "description": "Properties enable functions rather than directly producing outcomes."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "structural_interaction",
+      "label": "anticipates",
+      "description": "Go-Shape Theory anticipates recurring interaction types between structures."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "proposition_1",
+      "label": "proposes",
+      "description": "Foundational proposition of the theory."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "proposition_2",
+      "label": "proposes",
+      "description": "Foundational proposition of the theory."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "proposition_3",
+      "label": "proposes",
+      "description": "Foundational proposition of the theory."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "proposition_4",
+      "label": "proposes",
+      "description": "Foundational proposition of the theory."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "proposition_5",
+      "label": "proposes",
+      "description": "Foundational proposition of the theory."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "proposition_6",
+      "label": "proposes",
+      "description": "Foundational proposition of the theory."
+    },
+    {
+      "source": "proposition_3",
+      "target": "alignment",
+      "label": "references",
+      "description": "Proposition about deep-surface alignment."
+    },
+    {
+      "source": "proposition_4",
+      "target": "alignment",
+      "label": "references",
+      "description": "Proposition about deep-surface alignment."
+    },
+    {
+      "source": "proposition_5",
+      "target": "alignment",
+      "label": "references",
+      "description": "Proposition about misalignment generating friction."
+    },
+    {
+      "source": "proposition_6",
+      "target": "enduring_intent",
+      "label": "references",
+      "description": "Proposition about intent-driven divergence."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "structural_dynamics",
+      "label": "extends to",
+      "description": "Future research direction: how structures change over time."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "influence_mechanisms",
+      "label": "extends to",
+      "description": "Future research direction: how structures propagate effects."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "cross_domain_application",
+      "label": "extends to",
+      "description": "Future research direction: applying framework across domains."
+    },
+    {
+      "source": "cross_domain_application",
+      "target": "sovereign_shell",
+      "label": "includes",
+      "description": "AI governance is a target domain for cross-domain application."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "positioning_theory",
+      "label": "precedes",
+      "description": "Go-Shape asks what makes industry structures possible; positioning explains behavior within them."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "resource_based_view",
+      "label": "precedes",
+      "description": "Go-Shape asks what makes resource stocks possible; RBV explains behavior within them."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "dynamic_capabilities",
+      "label": "precedes",
+      "description": "Go-Shape asks what makes capability bundles possible; dynamic capabilities explains behavior within them."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "institutional_theory",
+      "label": "precedes",
+      "description": "Go-Shape asks what makes institutional fields possible; institutional theory explains behavior within them."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "structuration_theory",
+      "label": "draws on",
+      "description": "Go-Shape narrows Giddens' mutual constitution to strategic structures specifically."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "deep_structure",
+      "label": "is a",
+      "description": "The Sovereign Constitution is a deep structure."
+    },
+    {
+      "source": "engagement_playbook",
+      "target": "surface_structure",
+      "label": "is a",
+      "description": "The Engagement Playbook is a surface structure."
+    },
+    {
+      "source": "sovereign_shell",
+      "target": "go_shape_theory",
+      "label": "applies",
+      "description": "The Sovereign Shell applies Go-Shape Theory to AI governance: deep structure (S1-S7) generates surface structure (five-phase protocol)."
+    },
+    {
+      "source": "kalama_sutta",
+      "target": "methodology_cycle",
+      "label": "inspires",
+      "description": "The Kalama Sutta provides the epistemological foundation for the research methodology."
+    },
+    {
+      "source": "methodology_cycle",
+      "target": "observation_log",
+      "label": "uses",
+      "description": "The methodology cycle feeds data into the observation log."
+    },
+    {
+      "source": "observation_log",
+      "target": "go_shape_theory",
+      "label": "feeds",
+      "description": "The observation log is the bridge between reality and theory."
+    },
+    {
+      "source": "source_of_inspiration",
+      "target": "kalama_sutta",
+      "label": "includes",
+      "description": "The Kalama Sutta is a source of epistemological inspiration."
+    },
+    {
+      "source": "source_of_inspiration",
+      "target": "daoism",
+      "label": "includes",
+      "description": "Daoism generates hypotheses but does not validate them."
+    },
+    {
+      "source": "source_of_inspiration",
+      "target": "buddhism",
+      "label": "includes",
+      "description": "Buddhism generates hypotheses but does not validate them."
+    },
+    {
+      "source": "source_of_inspiration",
+      "target": "business_experience",
+      "label": "includes",
+      "description": "Business experience generates hypotheses but does not validate them."
+    },
+    {
+      "source": "source_of_inspiration",
+      "target": "systems_thinking",
+      "label": "includes",
+      "description": "Systems thinking generates hypotheses but does not validate them."
+    },
+    {
+      "source": "source_of_justification",
+      "target": "evidence",
+      "label": "requires",
+      "description": "Evidence is a core component of justification."
+    },
+    {
+      "source": "source_of_justification",
+      "target": "falsification_criteria",
+      "label": "requires",
+      "description": "Falsification criteria are required for scientific justification."
+    },
+    {
+      "source": "source_of_justification",
+      "target": "logical_consistency",
+      "label": "requires",
+      "description": "Logical consistency is required for valid justification."
+    },
+    {
+      "source": "source_of_justification",
+      "target": "predictive_power",
+      "label": "requires",
+      "description": "Predictive power determines whether a hypothesis stands or falls."
+    },
+    {
+      "source": "source_of_inspiration",
+      "target": "hypothesis",
+      "label": "generates",
+      "description": "Sources of inspiration generate hypotheses."
+    },
+    {
+      "source": "source_of_justification",
+      "target": "hypothesis",
+      "label": "validates",
+      "description": "Sources of justification validate or invalidate hypotheses."
+    },
+    {
+      "source": "inspiration_justification_boundary",
+      "target": "source_of_inspiration",
+      "label": "separates",
+      "description": "The boundary separates inspiration from justification."
+    },
+    {
+      "source": "inspiration_justification_boundary",
+      "target": "source_of_justification",
+      "label": "separates",
+      "description": "The boundary separates inspiration from justification."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "deep_structure",
+      "label": "manifests as",
+      "description": "The stable side of the duality: identity, principles, intent, purpose."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "surface_structure",
+      "label": "manifests as",
+      "description": "The adaptive side of the duality: execution, methods, policies, behaviour."
+    },
+    {
+      "source": "deep_structure",
+      "target": "stable_adaptive_duality",
+      "label": "is stable side of",
+      "description": "Deep structure represents the stable pole of the universal duality."
+    },
+    {
+      "source": "surface_structure",
+      "target": "stable_adaptive_duality",
+      "label": "is adaptive side of",
+      "description": "Surface structure represents the adaptive pole of the universal duality."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "dna_gene_expression",
+      "label": "example",
+      "description": "DNA is stable; gene expression is adaptive."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "constitution_legislation",
+      "label": "example",
+      "description": "Constitution is stable; legislation is adaptive."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "mission_strategy",
+      "label": "example",
+      "description": "Mission is stable; strategy is adaptive."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "architecture_features",
+      "label": "example",
+      "description": "Architecture is stable; features are adaptive."
+    },
+    {
+      "source": "stable_adaptive_duality",
+      "target": "ai_constitution_llm_reasoning",
+      "label": "example",
+      "description": "AI Constitution is stable; LLM reasoning is adaptive."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "sovereign_constitution",
+      "label": "is built on",
+      "description": "Constitutional governance is built upon the Sovereign Constitution."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "sovereign_shell",
+      "label": "enforces",
+      "description": "Constitutional governance is enforced by the Sovereign Shell."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "reasoning",
+      "label": "governs",
+      "description": "The constitution governs reasoning."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "evidence",
+      "label": "governs",
+      "description": "The constitution governs evidence."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "responsibility",
+      "label": "governs",
+      "description": "The constitution governs responsibility allocation."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "transparency_governance",
+      "label": "governs",
+      "description": "The constitution governs transparency."
+    },
+    {
+      "source": "constitutional_governance",
+      "target": "amendment",
+      "label": "governs",
+      "description": "The constitution governs amendment procedures."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "knowledge_graph",
+      "label": "is function of",
+      "description": "The constitutional reasoning engine is the functional purpose of the knowledge graph."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "evidence",
+      "label": "contains",
+      "description": "Each node contains evidence."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "confidence",
+      "label": "contains",
+      "description": "Each node contains confidence levels."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "competing_explanations",
+      "label": "contains",
+      "description": "Each node contains competing explanations."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "amendment",
+      "label": "contains",
+      "description": "Each node contains amendment history."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "reasoning_links",
+      "label": "contains",
+      "description": "Each node contains reasoning links."
+    },
+    {
+      "source": "constitutional_reasoning_engine",
+      "target": "explanable_ai",
+      "label": "is",
+      "description": "The constitutional reasoning engine is explainable AI."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "reasoning",
+      "label": "governs",
+      "description": "The Sovereign Constitution governs reasoning."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "evidence",
+      "label": "governs",
+      "description": "The Sovereign Constitution governs evidence."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "responsibility",
+      "label": "governs",
+      "description": "The Sovereign Constitution governs responsibility."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "transparency_governance",
+      "label": "governs",
+      "description": "The Sovereign Constitution governs transparency."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "amendment",
+      "label": "governs",
+      "description": "The Sovereign Constitution governs amendment."
+    },
+    {
+      "source": "sovereign_constitution",
+      "target": "constitutional_governance",
+      "label": "is analogous to",
+      "description": "The Sovereign Constitution is analogous to constitutional law rather than moral code."
+    },
+    {
+      "source": "amendment",
+      "target": "sovereign_constitution",
+      "label": "revises",
+      "description": "Amendment is the capacity of the constitution to revise itself."
+    },
+    {
+      "source": "amendment",
+      "target": "knowledge_graph",
+      "label": "revises",
+      "description": "Amendment is the capacity of the knowledge graph to revise itself."
+    },
+    {
+      "source": "amendment",
+      "target": "constitutional_reasoning_engine",
+      "label": "revises",
+      "description": "Amendment is the capacity of the reasoning engine to revise itself."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "amendment",
+      "label": "triggers",
+      "description": "Falsification criteria trigger amendment when evidence contradicts a proposition."
+    },
+    {
+      "source": "continuous_calibration",
+      "target": "sovereign_constitution",
+      "label": "applies to",
+      "description": "Constitutions are subject to continuous calibration, not fixed perfection."
+    },
+    {
+      "source": "continuous_calibration",
+      "target": "go_shape_theory",
+      "label": "applies to",
+      "description": "Scientific theories are subject to continuous calibration."
+    },
+    {
+      "source": "continuous_calibration",
+      "target": "sovereign_shell",
+      "label": "applies to",
+      "description": "AI systems are subject to continuous calibration."
+    },
+    {
+      "source": "continuous_calibration",
+      "target": "methodology_cycle",
+      "label": "is principle of",
+      "description": "Continuous calibration is the philosophical principle underlying the iterative methodology."
+    },
+    {
+      "source": "research_philosophy",
+      "target": "clarity",
+      "label": "underpins",
+      "description": "Reality precedes strategy underpins the discipline of clarity."
+    },
+    {
+      "source": "research_philosophy",
+      "target": "go_shape_theory",
+      "label": "underpins",
+      "description": "Accurate perception of constraints underpins Go-Shape Theory."
+    },
+    {
+      "source": "research_philosophy",
+      "target": "observation_log",
+      "label": "underpins",
+      "description": "Reality-first philosophy underpins the observation log."
+    },
+    {
+      "source": "dr_brian_interaction",
+      "target": "friction",
+      "label": "positive inheritance",
+      "description": "Friction was inherited as a positive design constraint from the interaction with Dr. Brian."
+    },
+    {
+      "source": "dr_brian_interaction",
+      "target": "path_dependency",
+      "label": "positive inheritance",
+      "description": "Path dependency was inherited as a positive design constraint."
+    },
+    {
+      "source": "dr_brian_interaction",
+      "target": "systems_thinking",
+      "label": "positive inheritance",
+      "description": "Systems thinking was inherited as a positive design constraint."
+    },
+    {
+      "source": "dr_brian_interaction",
+      "target": "tautological_justification",
+      "label": "negative inheritance",
+      "description": "Tautological justification was deliberately rejected from the interaction with Dr. Brian."
+    },
+    {
+      "source": "dr_brian_interaction",
+      "target": "unfalsifiable_explanations",
+      "label": "negative inheritance",
+      "description": "Unfalsifiable explanations were deliberately rejected."
+    },
+    {
+      "source": "dr_brian_interaction",
+      "target": "post_hoc_reasoning",
+      "label": "negative inheritance",
+      "description": "Post-hoc reasoning was deliberately rejected."
+    },
+    {
+      "source": "friction",
+      "target": "proposition_5",
+      "label": "diagnoses",
+      "description": "Friction diagnoses structural misalignment (Proposition 5)."
+    },
+    {
+      "source": "emerging_research_programme",
+      "target": "go_shape_theory",
+      "label": "includes",
+      "description": "Go-Shape Theory is part of the emerging research programme."
+    },
+    {
+      "source": "emerging_research_programme",
+      "target": "constitutional_governance",
+      "label": "includes",
+      "description": "Constitutional AI governance is part of the emerging research programme."
+    },
+    {
+      "source": "emerging_research_programme",
+      "target": "sovereign_constitution",
+      "label": "includes",
+      "description": "The Sovereign Constitution is part of the emerging research programme."
+    },
+    {
+      "source": "emerging_research_programme",
+      "target": "clarity",
+      "label": "includes",
+      "description": "The Art of Clarity is part of the emerging research programme."
+    },
+    {
+      "source": "emerging_research_programme",
+      "target": "enduring_structures",
+      "label": "studies",
+      "description": "The programme studies what enduring structures consistently produce trustworthy, adaptive, and resilient systems."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "proposition_1",
+      "label": "tests",
+      "description": "Every proposition should have falsification criteria."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "proposition_2",
+      "label": "tests",
+      "description": "Every proposition should have falsification criteria."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "proposition_3",
+      "label": "tests",
+      "description": "Every proposition should have falsification criteria."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "proposition_4",
+      "label": "tests",
+      "description": "Every proposition should have falsification criteria."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "proposition_5",
+      "label": "tests",
+      "description": "Every proposition should have falsification criteria."
+    },
+    {
+      "source": "falsification_criteria",
+      "target": "proposition_6",
+      "label": "tests",
+      "description": "Every proposition should have falsification criteria."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "enduring_structures",
+      "label": "studies",
+      "description": "Go-Shape Theory is a theory of enduring structures rather than individual moves."
+    },
+    {
+      "source": "go_shape_theory",
+      "target": "stable_adaptive_duality",
+      "label": "embodies",
+      "description": "Go-Shape Theory embodies the stable/adaptive duality."
+    },
+    {
+      "source": "clarity",
+      "target": "research_philosophy",
+      "label": "is discipline of",
+      "description": "Clarity is the system discipline of removing distortion between perception and reality."
+    },
+    {
+      "source": "sovereign_shell",
+      "target": "constitutional_governance",
+      "label": "enforces",
+      "description": "The Sovereign Shell enforces constitutional governance around AI."
+    },
+    {
+      "source": "sovereign_shell",
+      "target": "reasoning",
+      "label": "governs",
+      "description": "The Sovereign Shell governs LLM reasoning."
+    },
+    {
+      "source": "methodology_cycle",
+      "target": "falsification_criteria",
+      "label": "uses",
+      "description": "The methodology cycle uses falsification criteria to refine theory."
+    },
+    {
+      "source": "methodology_cycle",
+      "target": "continuous_calibration",
+      "label": "embodies",
+      "description": "The iterative methodology embodies continuous calibration."
+    }
+  ]
+}
